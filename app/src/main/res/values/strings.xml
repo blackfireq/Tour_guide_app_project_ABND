@@ -1,3 +1,55 @@
 <resources>
     <string name="app_name">Tour_guide_app_project_ABND</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Comedy Fragment -->
+    <string name="comedy_one_name">Gotham Comedy Club</string>
+    <string name="comedy_one_address">208 W 23rd St</string>
+    <string name="comedy_two_name">Old Man Hustle</string>
+    <string name="comedy_two_address">39 Essex St</string>
+    <string name="comedy_three_name"> BATSU!</string>
+    <string name="comedy_three_address">15 St Mark's Pl</string>
+    <string name="comedy_four_name">Comedy Cellar</string>
+    <string name="comedy_four_address">117 MacDougal St</string>
+    <string name="comedy_five_name">Blogologues</string>
+    <string name="comedy_five_address">123 E 24th St</string>
+
+    <!--Landmark Fragment -->
+    <string name="landmark_one_name">Charging Bull</string>
+    <string name="landmark_one_address">Broadway and Morris St</string>
+    <string name="landmark_two_name">Prometheus</string>
+    <string name="landmark_two_address">rockfella center</string>
+    <string name="landmark_three_name">Atlas</string>
+    <string name="landmark_three_address">rockfella center</string>
+    <string name="landmark_four_name">Christopher Columbus</string>
+    <string name="landmark_four_address">Columbus Circle</string>
+    <string name="landmark_five_name">George Washington</string>
+    <string name="landmark_five_address">26 Wall Street</string>
+
+    <!--Park Fragment -->
+    <string name="park_one_name">Washington Square Park</string>
+    <string name="park_one_address">West 4th Street and Fifth Avenue</string>
+    <string name="park_two_name">Union Square Park</string>
+    <string name="park_two_address">201 Park Ave South</string>
+    <string name="park_three_name">Bryant Park</string>
+    <string name="park_three_address">85 west 40th st</string>
+    <string name="park_four_name">Central Park</string>
+    <string name="park_four_address">830 5th Ave</string>
+    <string name="park_five_name">Battery Park</string>
+    <string name="park_five_address">6 battery place</string>
+
+    <!--Pizza Fragment -->
+    <string name="pizza_one_name">John's of Bleecker Street</string>
+    <string name="pizza_one_address">278 Bleecker Street</string>
+    <string name="pizza_two_name">Motorino</string>
+    <string name="pizza_two_address">139 Broadway</string>
+    <string name="pizza_three_name">Paulie Gee's</string>
+    <string name="pizza_three_address">60 Greenpoint Avenue</string>
+    <string name="pizza_four_name">Speedy Romeo</string>
+    <string name="pizza_four_address">376 Classon Avenue</string>
+    <string name="pizza_five_name">Roberta's</string>
+    <string name="pizza_five_address">261 Moore Street</string>
+
 </resources>
