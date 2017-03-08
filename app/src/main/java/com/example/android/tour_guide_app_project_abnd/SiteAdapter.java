@@ -10,9 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by mikem on 3/7/2017.
- */
 
 public class SiteAdapter extends ArrayAdapter<Site> {
 
