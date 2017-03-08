@@ -10,7 +10,7 @@
     <string name="comedy_two_name">Old Man Hustle</string>
     <string name="comedy_two_address">39 Essex St</string>
     <string name="comedy_three_name"> BATSU!</string>
-    <string name="comedy_three_address">15 St Mark's Pl</string>
+    <string name="comedy_three_address">15 St Marks Place</string>
     <string name="comedy_four_name">Comedy Cellar</string>
     <string name="comedy_four_address">117 MacDougal St</string>
     <string name="comedy_five_name">Blogologues</string>
@@ -41,15 +41,15 @@
     <string name="park_five_address">6 battery place</string>
 
     <!--Pizza Fragment -->
-    <string name="pizza_one_name">John's of Bleecker Street</string>
+    <string name="pizza_one_name">Johns of Bleecker Street</string>
     <string name="pizza_one_address">278 Bleecker Street</string>
     <string name="pizza_two_name">Motorino</string>
     <string name="pizza_two_address">139 Broadway</string>
-    <string name="pizza_three_name">Paulie Gee's</string>
+    <string name="pizza_three_name">Paulie Gees</string>
     <string name="pizza_three_address">60 Greenpoint Avenue</string>
     <string name="pizza_four_name">Speedy Romeo</string>
     <string name="pizza_four_address">376 Classon Avenue</string>
-    <string name="pizza_five_name">Roberta's</string>
+    <string name="pizza_five_name">Robertas</string>
     <string name="pizza_five_address">261 Moore Street</string>
 
 </resources>
