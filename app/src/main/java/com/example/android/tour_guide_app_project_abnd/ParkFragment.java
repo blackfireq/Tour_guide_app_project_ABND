@@ -33,11 +33,11 @@ public class ParkFragment extends Fragment {
 
         //create list of site info
         final ArrayList<Site> siteInfo = new ArrayList<Site>();
-        siteInfo.add(new Site("Washington Square Park", "West 4th Street and Fifth Avenue"));
-        siteInfo.add(new Site("Union Square Park", "201 Park Ave South"));
-        siteInfo.add(new Site("Bryant Park", "85 west 40th st"));
-        siteInfo.add(new Site("Central Park", "830 5th Ave"));
-        siteInfo.add(new Site("Battery Park", "6 battery place"));
+        siteInfo.add(new Site("Washington Square Park", "West 4th Street and Fifth Avenue",R.drawable.washington_square_park_icon));
+        siteInfo.add(new Site("Union Square Park", "201 Park Ave South",R.drawable.union_square_park_icon));
+        siteInfo.add(new Site("Bryant Park", "85 west 40th st",R.drawable.bryant_park_icon));
+        siteInfo.add(new Site("Central Park", "830 5th Ave",R.drawable.central_park_icon));
+        siteInfo.add(new Site("Battery Park", "6 battery place",R.drawable.battery_park_icon));
 
         // Create an {@link SiteAdapter}, whose data source is a list of {@link site}s. The
         // adapter knows how to create list items for each item in the list.
