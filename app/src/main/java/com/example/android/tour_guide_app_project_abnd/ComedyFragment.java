@@ -33,11 +33,11 @@ public class ComedyFragment extends Fragment {
 
         //create list of site info
         final ArrayList<Site> siteInfo = new ArrayList<Site>();
-        siteInfo.add(new Site("Gotham Comedy Club", "208 W 23rd St"));
-        siteInfo.add(new Site("Old Man Hustle", "39 Essex St"));
-        siteInfo.add(new Site("BATSU!", "15 St Marks Place"));
-        siteInfo.add(new Site("Comedy Cellar", "117 MacDougal St"));
-        siteInfo.add(new Site("Blogologues", "123 E 24th St"));
+        siteInfo.add(new Site(R.string.comedy_one_name,R.string.comedy_one_address));
+        siteInfo.add(new Site(R.string.comedy_two_name,R.string.comedy_two_address));
+        siteInfo.add(new Site(R.string.comedy_three_name,R.string.comedy_three_address));
+        siteInfo.add(new Site(R.string.comedy_four_name,R.string.comedy_four_address));
+        siteInfo.add(new Site(R.string.comedy_five_name,R.string.comedy_five_address));
 
         // Create an {@link SiteAdapter}, whose data source is a list of {@link site}s. The
         // adapter knows how to create list items for each item in the list.

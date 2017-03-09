@@ -6,28 +6,28 @@ package com.example.android.tour_guide_app_project_abnd;
 
 public class Site {
 
-    private String mSiteName;
-    private String mSiteAddress;
+    private int mSiteName;
+    private int mSiteAddress;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    public Site (String siteName, String siteAddress){
+    public Site (int siteName, int siteAddress){
         mSiteName = siteName;
         mSiteAddress = siteAddress;
     }
 
-    public Site (String siteName, String siteAddress, int imageResourceId){
+    public Site (int siteName, int siteAddress, int imageResourceId){
         mSiteName = siteName;
         mSiteAddress = siteAddress;
         mImageResourceId = imageResourceId;
     }
 
-    public String getSiteName(){
+    public int getSiteName(){
         return mSiteName;
     }
 
-    public String getSiteAddress(){
+    public int getSiteAddress(){
         return mSiteAddress;
     }
 

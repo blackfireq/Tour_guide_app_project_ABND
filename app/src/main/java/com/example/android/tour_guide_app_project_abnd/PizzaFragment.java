@@ -33,11 +33,11 @@ public class PizzaFragment extends Fragment {
 
         //create list of site info
         final ArrayList<Site> siteInfo = new ArrayList<Site>();
-        siteInfo.add(new Site("Johns of Bleecker Street", "278 Bleecker Street"));
-        siteInfo.add(new Site("Motorino", "139 Broadway"));
-        siteInfo.add(new Site("Paulie Gees", "60 Greenpoint Avenue"));
-        siteInfo.add(new Site("Speedy Romeo", "376 Classon Avenue"));
-        siteInfo.add(new Site("Robertas", "261 Moore Street"));
+        siteInfo.add(new Site(R.string.pizza_one_name, R.string.park_one_address));
+        siteInfo.add(new Site(R.string.pizza_two_name, R.string.park_two_address));
+        siteInfo.add(new Site(R.string.pizza_three_name, R.string.park_three_address));
+        siteInfo.add(new Site(R.string.pizza_four_name, R.string.park_four_address));
+        siteInfo.add(new Site(R.string.pizza_five_name, R.string.park_five_address));
 
         // Create an {@link SiteAdapter}, whose data source is a list of {@link site}s. The
         // adapter knows how to create list items for each item in the list.

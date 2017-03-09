@@ -19,9 +19,8 @@ public class SiteAdapter extends ArrayAdapter<Site> {
 
     @Override
     public View getView(int postion, View convertView, ViewGroup parent) {
-        View siteItemView = convertView;
-        if (siteItemView == null) {
-            siteItemView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_site, parent, false);
         }
 
@@ -29,19 +28,19 @@ public class SiteAdapter extends ArrayAdapter<Site> {
         Site site = getItem(postion);
 
         // get the textview  that will have the the site's name
-        TextView siteName = (TextView) siteItemView.findViewById(R.id.site_name_view);
+        TextView siteName = (TextView) convertView.findViewById(R.id.site_name_view);
 
         // set the text in the site's name view
         siteName.setText(site.getSiteName());
 
         // get the textview that will have the site's address
-        TextView siteAddress = (TextView) siteItemView.findViewById(R.id.site_address_view);
+        TextView siteAddress = (TextView) convertView.findViewById(R.id.site_address_view);
 
         // set the text in the site's address view
         siteAddress.setText(site.getSiteAddress());
 
         // set image if available
-        ImageView imageView = (ImageView) siteItemView.findViewById(R.id.siteImage);
+        ImageView imageView = (ImageView) convertView.findViewById(R.id.siteImage);
 
         if (site.HasImage()) {
             imageView.setImageResource(site.getImageResourceId());
@@ -49,6 +48,6 @@ public class SiteAdapter extends ArrayAdapter<Site> {
             imageView.setVisibility(View.GONE);
         }
 
-        return siteItemView;
+        return convertView;
     }
 }

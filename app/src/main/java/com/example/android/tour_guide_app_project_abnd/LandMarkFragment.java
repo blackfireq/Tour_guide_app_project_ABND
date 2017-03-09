@@ -32,11 +32,11 @@ public class LandMarkFragment extends Fragment {
 
         //create list of site info
         final ArrayList<Site> siteInfo = new ArrayList<Site>();
-        siteInfo.add(new Site("Charging Bull", "Broadway and Morris St"));
-        siteInfo.add(new Site("Prometheus", "Rockfella Center"));
-        siteInfo.add(new Site("Atlas", "Rockfella Center"));
-        siteInfo.add(new Site("Christopher Columbus", "Columbus Circle"));
-        siteInfo.add(new Site("George Washington", "26 Wall Street"));
+        siteInfo.add(new Site(R.string.landmark_one_name,R.string.landmark_one_address));
+        siteInfo.add(new Site(R.string.landmark_two_name,R.string.landmark_two_address));
+        siteInfo.add(new Site(R.string.landmark_three_name,R.string.landmark_three_address));
+        siteInfo.add(new Site(R.string.landmark_four_name,R.string.landmark_four_address));
+        siteInfo.add(new Site(R.string.landmark_five_name,R.string.landmark_five_address));
 
         // Create an {@link SiteAdapter}, whose data source is a list of {@link site}s. The
         // adapter knows how to create list items for each item in the list.
